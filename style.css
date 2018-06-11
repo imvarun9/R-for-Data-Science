@@ -18,6 +18,20 @@ color : gray;
   font-size: 15px;
 
 }
+.welcome {
+color: black;
+  text-decoration: none;
+  padding: 5px 20px; 
+  font-family: "Roboto", sans-serif; 
+  font-size: 20px;
+}
+.welcome p {
+color: black;
+  text-decoration: none;
+  padding: 5px 20px; 
+  font-family: "Roboto", sans-serif; 
+  font-size: 10px;
+}
 .chapter li {
   color: black;
   text-decoration: none;
