@@ -11,6 +11,13 @@ header {
   font-family: "Roboto", sans-serif; 
   font-size: 40px;
 }
+.header p {
+color : gray;
+  text-decoration:none;
+  font-family: "Roboto", sans-serif; 
+  font-size: 25px;
+
+}
 .chapter li {
   color: black;
   text-decoration: none;
