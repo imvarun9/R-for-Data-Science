@@ -39,7 +39,7 @@ color: black;
   font-family: "Roboto", sans-serif; 
   font-size: 20px;
 }
-.chapter .li p {
+.chapter li p {
   color: black;
   text-decoration:none;
   font-family: "Roboto", sans-serif; 
