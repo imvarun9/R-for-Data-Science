@@ -13,9 +13,28 @@
     </div>
   <div class = "chapter">
      <li > Exercise 5.2.4
-     <p> Q1. Flights had an arrival delay of two or more hours
+     <p> Q1. Flights had an arrival delay of two or more hours?
       <br>Ans1: filter(flights, arr_delay >= 120)</br>
      </p>
+    <p> Q2. Flights flew to Houston (IAH or HOU)?
+      <br> Ans2: ilter(flights, dest %in% c("IAH","HOU"))</br>
+    </p>
+    <p>Q3. Flights operated by United, American, or Delta?
+      <br>Ans3: filter(flights, carrier %in% c("UA","AA","DL"))</br>
+    </p>
+    <p>Q4. Flights departed in summer (July, August, and September)?
+    <br>filter(flights, (month == 7 | month == 8 | month == 9))</br>
+    </p>
+    <p>Q5. Flights arrived more than two hours late, but didn't leave late
+    <br>Ans5: filter(flights, arr_delay > 120 & dep_delay <= 0 )</br>
+    </p>
+    <p>Q6. Flights were delayed by at least an hour, but made up over 30 minutes in flight?
+    <br>Ans6: filter(flights, dep_delay >= 60 & arr_delay <= 30)</br>
+    </p>
+    <p>Q7. Flights departed between midnight and 6am (inclusive)?
+    <br>filter(flights, dep_time %in% c(seq(1,600)))</br>
+    </p>
+  
        </li>
     </div>
   </body>
